@@ -8,9 +8,8 @@ use PHPUnit\Framework\TestCase;
 
 
 
-// $account = Instagram::getAccount('amr__p');
-// $media   = $account->user->media->nodes;
-$media = array();
+$account = Instagram::getAccount('amr__p');
+$media   = $account->user->media->nodes;
 
 // printme($media);exit();
 
@@ -230,7 +229,7 @@ function printme($string)
                 <!--PORTFOLIO IMAGE-->
                 <ul class="portfolio-image">
                   <li class="col-md-6">
-                    <a href="images/amrp/1"><img alt="image" src="images/amrp/1">
+                    <a href="images/amrp/1.jpg"><img alt="image" src="images/amrp/1.jpg">
                       <div class="decription-wrap">
                         <div class="image-bg">
                            <p class="desc">Times Square, New York</p>
@@ -240,7 +239,7 @@ function printme($string)
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/amrp/3"><img alt="image" src="images/amrp/3">
+                    <a href="images/amrp/3.jpg"><img alt="image" src="images/amrp/3.jpg">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
@@ -251,7 +250,7 @@ function printme($string)
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/amrp/7"><img alt="image" src="images/amrp/7">
+                    <a href="images/amrp/7.jpg"><img alt="image" src="images/amrp/7.jpg">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
@@ -262,7 +261,7 @@ function printme($string)
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/amrp/12"><img alt="image" src="images/amrp/12">
+                    <a href="images/amrp/12.jpg"><img alt="image" src="images/amrp/12.jpg">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
@@ -273,7 +272,7 @@ function printme($string)
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/amrp/13"><img alt="image" src="images/amrp/13">
+                    <a href="images/amrp/13.jpg"><img alt="image" src="images/amrp/13.jpg">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
@@ -284,7 +283,7 @@ function printme($string)
                     </a>
                   </li>
                   <li class="col-md-6">
-                    <a href="images/amrp/10"><img alt="image" src="images/amrp/10">
+                    <a href="images/amrp/10.jpg"><img alt="image" src="images/amrp/10.jpg">
                       <div class="decription-wrap">
                         <div class="image-bg">
                           <p class="desc">
