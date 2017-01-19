@@ -61,7 +61,7 @@ function printme($string)
     <div class="header">
       <div class="for-sticky">
         <!--LOGO-->
-        <div class="col-md-2 col-xs-6 logo">
+        <div class="col-md-2 col-xs-10 logo">
           <a href="index.html">
             <span style="font-family: 'Above';line-height: 2.3;font-size: 130%;">Amr Fotography</span>
             <!-- <img alt="logo" class="logo-nav" src="images/logo.png"> -->
