@@ -79,20 +79,20 @@ function printme($string)
               <span>About</span>
             </a>
             <a data-scroll="" href="#work">
-              <span>Work</span>
+              <span>Photography</span>
             </a>
              <a data-scroll="" href="#services">
               <span>Services</span>
             </a>
-            <a data-scroll="" href="#employement">
+            <!-- <a data-scroll="" href="#employement">
               <span>Employement</span>
-            </a>
+            </a> -->
             <a data-scroll="" href="#skill">
               <span>Skills</span>
             </a>
-            <a data-scroll="" href="#education">
+            <!-- <a data-scroll="" href="#education">
               <span>Education</span>
-            </a>
+            </a> -->
             <a data-scroll="" href="#testimonial">
               <span>Testimonial</span>
             </a>
