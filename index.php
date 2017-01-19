@@ -8,8 +8,9 @@ use PHPUnit\Framework\TestCase;
 
 
 
-$account = Instagram::getAccount('amr__p');
-$media   = $account->user->media->nodes;
+// $account = Instagram::getAccount('amr__p');
+// $media   = $account->user->media->nodes;
+$media = array();
 
 // printme($media);exit();
 
