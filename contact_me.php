@@ -42,24 +42,19 @@ $conn->close();
 
    
 $to = 'amrsamo75@gmail.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
-$email_subject = "Website Contact Form:  $name";
+$email_subject = "Amr Fotography Contact Form:  $name";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: noreply@yourdomain.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";   
-// mail($to,$email_subject,$email_body,$headers);
-
-
-
-
-
+mail($to,$email_subject,$email_body,$headers);
 
 
 
 //GMAIL SCRIPT
 require 'phpmailer/PHPMailerAutoload.php';
 
-$email = 'amrsamo75@gmail.com';                    
-$password = 'zamalek_1989';
+$email = 'support@skydevhouse.com';                    
+$password = 'Bakrbakr1';
 $to_id = 'amrsamo75@gmail.com';
 $message = $email_body;
 $subject = $email_subject;
@@ -80,7 +75,7 @@ $mail->Username = $email;
 
 $mail->Password = $password;
 
-$mail->setFrom('from@example.com', 'AmrFotography');
+$mail->setFrom('from@example.com', 'Support SkyDevHouse');
 
 $mail->addReplyTo('replyto@example.com', 'First Last');
 
@@ -91,12 +86,12 @@ $mail->Subject = $subject;
 $mail->msgHTML($message);
 
 if (!$mail->send()) {
-   $error = "Mailer Error: " . $mail->ErrorInfo;
-   echo $error;
+   
 } 
 else {
-   echo 'yes';
+   
 }
+
 
 
 
